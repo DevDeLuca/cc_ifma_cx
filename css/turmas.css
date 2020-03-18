@@ -29,6 +29,7 @@ falta a organização no centro*/
 .cc-div{
     text-align: left;
     margin-left: 20px;
+    font-size: 15px;
 }/*cc-div é a classe que organiza o ano inicio e apelido na esqueda com margem*/
 
 .corpo{
@@ -51,6 +52,9 @@ falta a organização no centro*/
     font-size: 30px;
 }/*titulo Turma*/
 
+.titulo-div{
+    font-size: 17px;
+}
 
 button{
     width: 100px;
