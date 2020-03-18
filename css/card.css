@@ -11,6 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     background: #0477BF;
+    font-family: "Trebuchet MS", sans-serif, Helvetica;
     /* overflow: hidden; */
 }
 
@@ -123,7 +124,7 @@ p{
     font-size: 16pt;
     margin: 20px auto;
     border-radius: 5px;
-    text-align: cente;
+    text-align: center;
     background: rgb(188, 188, 218);
 }
 
@@ -143,6 +144,10 @@ footer{
 }
 footer .autoria{
    text-align: center;
+}
+footer .autoria h3{
+   font-size: 14px;
+   font-weight: bold;
 }
 footer .autoria p{
    margin: 6px 0;

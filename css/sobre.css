@@ -1,0 +1,97 @@
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+
+
+/* isto é a section */
+.corpo-principal{
+    background-color: #0477BF;
+    text-align: centver;
+    font-size: 15px;
+    height: 1200px;
+    font-family: "Trebuchet MS", serif, Helvetica;
+    width: 100%;
+}
+
+
+/* corpo que contém todos os fieldset's */
+.corpo-div{
+    /* margin-left: 30%; */
+    font-size: 20px;
+}
+
+.cx{
+    background-color: #F8F5FF;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 80px;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
+p,b{
+    margin-top: 25px;
+    margin-bottom: 1px;
+    font-size: 15.5px;
+}
+
+.cx:hover{
+    -webkit-transform: scale(1.1);
+}
+
+p:hover{
+    font-size: 18px;
+}
+
+table{
+    border: solid 1px;
+    border-spacing: 0;
+}
+
+#cx-coord{
+    height: 290px;
+}
+
+tr td{
+    border: solid 1px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+p{
+    text-align: center;
+}
+
+#matriz-curricular{
+    margin-bottom: 50px;
+}
+.footer-turmas{
+    background: #E9F1DF;
+    padding: 30px 0px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 1300px;
+}
+.footer-turmas p{
+   margin: 6px 0;
+   font-size: 12px;
+   font-weight: lighter;
+}
+
+.footer-turmas a{
+   color: black;
+   text-decoration: none;
+}
+.footer-turmas a:hover{
+   color: #F5A503;
+}
