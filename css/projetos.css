@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    background: #009879;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #0477BF;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Trebuchet MS", sans-serif, Helvetica;
+    transition: 0.5s ease;
+    /* overflow: hidden; */
+}
+
+/* .div-table{
+    background: #fff;
+    width: 80%;
+    margin: 100px auto 50px;
+} */
+p{
+    margin: 50px auto 50px;
+    text-align: center;
+    font-size: 16pt;
+
+}
+ul{
+    padding: 0px !important;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #E9F1DF;
+    height: 70px;
+    border-bottom: 3px solid #d8d8d8;
+}
+#logo{
+    padding: 8px 0;
+    float: left;
+}
+
+/* Formatação do menu de navegacao*/
+#menu{
+    float: right;
+    padding: 25px 0;
+}
+#menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 5px;
+    height: 45px;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: initial;
+    color: #838383;
+    padding: 10px;
+}
+#menu ul li:hover{
+    border-bottom: 3px solid #013294;
+}
+#menu ul li a:hover{
+    color: #013294;
+}
+
+#table-titulo{
+    position: absolute;
+    top: 100px;
+    margin: 0px 0px 50px 500px;
+    text-align: center;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* formatacao da tabela */
+
+.project-table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 100px auto 50px;
+    font-size: 0.9em;
+    min-width: 480px;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+.project-table thead tr{
+    background: #009879;
+    color: #fff;
+    font-weight: bold;
+}
+
+.project-table th, .project-table td{
+    padding: 12px 15px;
+}
+
+.project-table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.project-table tbody tr:nth-of-type(even){
+    background: #d3d3d3;
+}
+
+.project-table tbody tr:last-of-type {
+    border-bottom: 5px solid #009879;
+}
+.image-download{
+    background-image: url("../img/download.png");
+}
+
+
+/* rodapé */
+footer{
+    background: #E9F1DF;
+    padding: 30px 0px;
+    position: absolute;
+    width: 100%;
+    top: 700px;
+}
+footer .autoria{
+   text-align: center;
+}
+footer .autoria p{
+   margin: 6px 0;
+   font-size: 12px;
+   font-weight: lighter;
+}
+
+footer .autoria a{
+   color: black;
+   text-decoration: none;
+}
+footer .autoria a:hover{
+   color: #F5A503;
+}
