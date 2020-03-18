@@ -242,7 +242,8 @@ main{
     padding: 3px;
 }
 .secao-inst .conteudo-inst .mapa:hover{
-    background-color: tomato;
+    background-color:    #021440;
+    
 }
 .secao-inst .conteudo-inst .endereco-ext{    
     align-items: center;
@@ -273,7 +274,7 @@ main{
  /*Estilização footer*/
  footer{
      background: #E9F1DF;
-     padding: 30px;
+     padding: 30px 0px;
      position: absolute;
      width: 100%;
      top: 1680px;
