@@ -16,7 +16,7 @@ body{
 ul{
     padding: 0px !important;
 }
-main{
+.menu-principal main{
     margin: 0 auto;
     width: 980px;
     position: relative;
