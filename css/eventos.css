@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    background: #0477BF
+}
+.card-evento{
+    position: relative;
+    height: 350px;
+    width: 95%;
+    max-width: 850px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 10px 50px rgba(252,56,56,.3);
+}
+.parte-interna{
+    position: absolute;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+  
+.parte-interna .imagem{
+    height: 260px;
+    width: 260px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo{
+    padding: 0 20px 0 20px;
+    width: 550px;
+    transition: .6s;
+    margin: 0 auto;
+}
+
+.conteudo span{
+    display: block;
+    color: #7b7992;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500
+}
+.conteudo .titulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d0925;
+    margin-bottom: 20px;
+}
+.conteudo .descricao p{
+    color: #4e4a67;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.conteudo a{
+    float: right;
+    display: inline-flex;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff0e6;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #0477BF;
+    font-weight: bold;
+}
+.conteudo a:hover{
+    background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
+    color: black;
+    font-weight: bold;
+}
+  
+footer{
+    background: #E9F1DF;
+    padding: 30px 0px;
+    position: absolute;
+    width: 100%;
+    top:840px;
+}
+.footer-eventos{
+   text-align: center;
+}
+.footer-eventos p{
+   margin: 6px 0;
+   font-size: 12px;
+   font-weight: lighter;
+}
+
+.footer-eventos a{
+   color: black;
+   text-decoration: none;
+}
+.footer-eventos a:hover{
+   color: #F5A503;
+}
