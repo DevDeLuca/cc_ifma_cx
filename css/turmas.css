@@ -4,28 +4,31 @@
 }
 
 .cc{
-    border-style: double;
     border-radius: 20px;
     width: 280px;
     height: 220px;
     padding: 20px;
     position: relative;
     float: left;
-    margin: 0px 0px 40px 80px;
+    margin: 0px 0px 40px 95px;
     line-height: 30px;
     background-color: white;
     transition: 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
     
 }/*cc é a classe que agrupa todas as "CC's", como a borda, largura e altura, padding, posição lado-a-lado
 falta a organização no centro*/
-
-.cc:hover{
-    background-color: #322999;
-    color: white;
+.cc-div .concluido{
+    color: rgb(0, 202, 135);
+    font-weight: bold;
 }
-
-
-
+hr{
+    margin: 5px 0;
+}
+.cc-div .andamento{
+    color: rgb(202, 165, 0);
+    font-weight: bold;
+}
 .cc-div{
     text-align: left;
     margin-left: 20px;
@@ -62,8 +65,29 @@ button{
     border-radius: 10px;
     border: none;
 }/*esse button é para definir tamanho e as bordas*/
-
-
+.box-btn{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -30px;
+}
+.acao-horario{
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 150px;
+    display: block;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, .4);
+}
+.acao-horario.desabilitado {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
 button:hover{
     background-color: gray;
     color: white;

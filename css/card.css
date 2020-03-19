@@ -11,7 +11,6 @@ body{
     align-items: center;
     justify-content: center;
     background: #0477BF;
-    font-family: "Trebuchet MS", sans-serif, Helvetica;
     /* overflow: hidden; */
 }
 
@@ -65,7 +64,7 @@ p{
 #top-titulo{
     margin: 50px auto 50px;
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", sans-serif, Helvetica;
     color: #fff;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
