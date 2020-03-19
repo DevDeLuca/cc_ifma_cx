@@ -90,6 +90,7 @@ p{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
+    background-color: #04708D;
 }
 
 .card-text{
@@ -107,7 +108,14 @@ p{
     margin-top: 0px;
     font-size: 28px;
 }
+.lattes{
+    background-color: #0540F2;
+}
 
+.link-lattes{
+    text-decoration: none;
+    color: white;
+}
 .card-footer{
     grid-area: footer;
     display: grid;
@@ -121,10 +129,19 @@ p{
 
 #btn_curriculo{
     font-size: 16pt;
+    padding: 5px;
+    /* border: 1px solid #435964; */
+    border-radius: 8px;
     margin: 20px auto;
     border-radius: 5px;
     text-align: center;
-    background: rgb(188, 188, 218);
+    background-color: #435964;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#btn_curriculo:hover{
+    background-color: #76919C;
+    
 }
 
 .cad:hover{
