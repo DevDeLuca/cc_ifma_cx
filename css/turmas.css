@@ -59,12 +59,6 @@ hr{
     font-size: 17px;
 }
 
-button{
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-}/*esse button é para definir tamanho e as bordas*/
 .box-btn{
     margin-top: 10px;
     text-align: center;
@@ -81,6 +75,9 @@ button{
     width: 150px;
     display: block;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, .4);
+}
+.acao-horario:hover{
+    background: rgba(234, 143, 6, 0.753);
 }
 .acao-horario.desabilitado {
     color: currentColor;

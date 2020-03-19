@@ -70,7 +70,7 @@ ul{
     width: 100%;
     color: white;
     height: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .container-interno h1{
     font-size: 60px;
@@ -78,13 +78,13 @@ ul{
 }
 .container-interno h2{
     font-family: "Source Sans Pro", sans-serif;
+    padding: 30px 0;
     font-size: 1.2rem;
-    font-style: italic;
     text-align: center;
     font-weight: 400;
 }
 .container-interno a{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1.3rem;
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -223,7 +223,7 @@ ul{
 }
 /*Estilização seçao Intituição*/
 .secao-inst{
-    background-color: #D9B504;
+    background-color: #027368;
     position: absolute;
     width: 100%;
     top: 1180px; 
@@ -236,7 +236,7 @@ ul{
     margin: 0 auto;
 }
 .secao-inst .conteudo-inst .mapa{
-    padding: 5px;
+    padding: 2px;
 }
 .secao-inst .conteudo-inst .mapa iframe{
     padding: 3px;

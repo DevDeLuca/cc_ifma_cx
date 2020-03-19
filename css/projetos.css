@@ -22,11 +22,6 @@ body{
     /* overflow: hidden; */
 }
 
-/* .div-table{
-    background: #fff;
-    width: 80%;
-    margin: 100px auto 50px;
-} */
 p{
     margin: 50px auto 50px;
     text-align: center;
@@ -138,6 +133,10 @@ footer .autoria p{
    font-size: 12px;
    font-weight: lighter;
 }
+footer .autoria h3{
+    font-weight: bold;
+    font-size: 14px;
+ }
 
 footer .autoria a{
    color: black;
