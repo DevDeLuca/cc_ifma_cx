@@ -5,15 +5,20 @@
 }
 
 
-
+body{
+    width: 100%;
+    background-color: #0477BF;
+}
 /* isto é a section */
 .corpo-principal{
     background-color: #0477BF;
     text-align: centver;
     font-size: 15px;
-    height: 1200px;
+    height: 1230px;
+    margin-top: 0;
     font-family: "Trebuchet MS", serif, Helvetica;
     width: 100%;
+    top: 100px;
 }
 
 
@@ -31,7 +36,7 @@
     height: 200px;
     margin: 0 auto;
     padding: 25px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 h4{
@@ -65,6 +70,18 @@ tr td{
     border: solid 1px;
     font-size: 15px;
     padding: 5px;
+}
+
+.titulo{
+    position: absolute;
+    margin: 100px 0px 60px 400px;
+    color: black;
+    font-size: 20px;
+    top: 20px;
+    left: 200px;
+    /* display: grid; */
+    color: seashell;
+    
 }
 
 p{
